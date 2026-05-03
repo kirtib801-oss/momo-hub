@@ -1,1 +1,180 @@
-<h1>website is for a cafe specializing intesty momos </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momo Hub</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+        }
+
+        header {
+            background-color: #c0392b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #e74c3c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1604908176997-431ad5ef0a73') no-repeat center;
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #c0392b;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .item h3 {
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #e74c3c;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #c0392b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Momo Hub</h1>
+    <p>Best Momos in Town</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    Delicious Momos Everyday!
+</div>
+
+<div class="container">
+    <h2 id="menu">Our Menu</h2>
+
+    <div class="menu">
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec" alt="Steam Momo">
+            <h3>Steam Momo</h3>
+            <p class="price">Rs. 120</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1625944235941-48b0a6c2e20e" alt="Fried Momo">
+            <h3>Fried Momo</h3>
+            <p class="price">Rs. 150</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1631452180539-96aca7d48617" alt="Jhol Momo">
+            <h3>Jhol Momo</h3>
+            <p class="price">Rs. 140</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7" alt="Kothey Momo">
+            <h3>Kothey Momo</h3>
+            <p class="price">Rs. 160</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1613145993480-e4a6e2c5b2dd" alt="Buff Momo">
+            <h3>Buff Momo</h3>
+            <p class="price">Rs. 130</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa9f88" alt="Chicken Momo">
+            <h3>Chicken Momo</h3>
+            <p class="price">Rs. 140</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8b3a" alt="Veg Momo">
+            <h3>Veg Momo</h3>
+            <p class="price">Rs. 110</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1625944525533-473f1d3c6f2b" alt="Cheese Momo">
+            <h3>Cheese Momo</h3>
+            <p class="price">Rs. 170</p>
+        </div>
+
+    </div>
+</div>
+
+<footer id="contact">
+    <p>📍 Butwal, Nepal</p>
+    <p>📞 +977-9800000000</p>
+    <p>© 2026 Momo Hub</p>
+</footer>
+
+</body>
+</html>
